@@ -1,0 +1,11 @@
+Disp "      000        000"
+Disp "    00   00    00   00"
+Disp "   0       0  0       0"
+Disp "   0        00        0"
+Disp "    0                0"
+Disp "      0            0"
+Disp "        0        0"
+Disp "          0    0"
+Disp "            00"
+Pause 
+" 

@@ -1,0 +1,5 @@
+Input "ACT:",A
+Input "MES:",M
+abs((A-M))/A→X
+toString(X*100)→X
+Disp X

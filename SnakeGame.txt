@@ -1,0 +1,52 @@
+1→X
+1→Y
+0→L
+0→0
+0→V
+0→E
+1→G
+0→F
+ClrHome
+Output(Y,X,"0")
+Output(3,6,"L")
+Output(3,18,"O")
+Output(7,6,"V")
+Output(7,18,"E")
+While G
+X→S
+Y→T
+If getKey=24
+T-1→T
+If getKey=25
+S-1→S
+If getKey=26
+T+1→T
+If getKey=34
+S+1→S
+If S≤0 or S≥10 or T≤0 or T≥26
+Goto E
+Output(X,Y," ")
+S→X
+T→Y
+Output(X,Y,"0")
+If X=3 and Y=6
+1→L
+If X=3 and Y=18
+1→O
+If X=7 and Y=6
+1→V
+If X=7 and Y=18
+1→E
+If L=1 and O=1 and V=1 and E=1
+Then
+1→F
+0→G
+End
+End
+Lbl E
+ClrHome
+If F=0
+Disp "NEXT TIME"
+If F≠0
+Disp "I WILL FIGHT FOR YOU TOO"
+" 

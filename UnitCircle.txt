@@ -1,0 +1,13 @@
+Disp "1: On"
+Disp "2: Off"
+Input "",X
+If X=1
+Then
+BackgroundOn Image1
+Disp "On"
+End
+If X=2
+Then
+BackgroundOff
+Disp "Off"
+End

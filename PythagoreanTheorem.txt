@@ -1,0 +1,12 @@
+ClrHome
+Input "A: ",A
+Input "B: ",B
+Input "C: ",C
+B/A→D
+C/A→E
+(­D+√(D²-4E))/2→F
+(­D-√(D²-4E))/2→G
+­F→H
+­G→I
+ClrHome
+Disp "A(X+B)(X+C)","A=",A,"B=",H,"C=",I

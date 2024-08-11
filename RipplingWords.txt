@@ -1,0 +1,21 @@
+ClrHome
+9→C
+0→E
+Repeat E
+For(K,1,10)
+Output(K,1," ILOVEYOUILOVEYOUILOVEYOU")
+End
+For(X,1,10)
+C+X→Y
+If Y>25
+Y-25→Y
+Output(X,Y," ")
+End
+C+1→C
+If C>26
+1→C
+Wait .001
+getKey→E
+End
+ClrHome
+" 
